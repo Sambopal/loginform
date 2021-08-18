@@ -1,0 +1,47 @@
+<%- include('partials/header') %>
+
+
+  <form>
+    <label>First Name:</label>
+    <input type="text" name="fname" id="user_input">
+	<p></p>
+	<label>Last Name:</label>
+	<input type="text" name="lname" id="user_inp">
+	<p></p>
+	<label>Middle Name:</label>
+	<input type="text" name="fmiddle" id="user_in">
+	<p></p>
+	<label>Address:</label>
+	<input type="text" name="faddress" id="user_ia">
+	<label>Country:</label>
+	<select type ="text" name="fcoun" id="user_ib">
+	<option value="India">India</option>
+   <option value="">Albania</option>
+   <option value="United States of America">us</option>
+   <option value="United Kingdom">uk</option>
+   </select>
+	
+	<label>State:</label>
+	<input type="text" name="fstate" id="user_ic">
+	<label>Zipcode:</label>
+	<input type="text" name="fzip" id="user_id">
+	<p></p>
+	<label>Email:</label>
+	<input   type="email" required name="femail" id="user_">
+	
+	<label>Phone Number:</label>
+	<input  type="tel" required name="fnum" id="user">
+	<p></p>
+	<label>Height:</label>
+	<input type="text" name="fhei" id="use">
+	
+	<label>Weight:</label>
+	<input type="text" name="fwei" id="us">
+	<p></p>
+    <hr>
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
